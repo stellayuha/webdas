@@ -1,0 +1,50 @@
+body {
+    background: #35a9db;
+    font-family: roboto;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+.ketengah {
+    margin: 10px auto;
+    width: 1150px;
+}
+
+.kotak {
+    background: blue;
+    width: 500px;
+    float: left;
+    height: 250px;
+    margin: 30px;
+}
+
+.gradient1 {
+    background: linear-gradient(purple,hotpink); /* Standart syntax*/
+    background: -webkit-linear-gradient(purple,hotpink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(purple,hotpink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(purple,hotpink); /* For Firefox 3.6 to 15 */
+}
+
+.gradient2 {
+    background: linear-gradient(to right, purple , lightblue, hotpink); /* Standard syntax */
+    background: -webkit-linear-gradient(left, purple , lightblue, hotpink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, purple, lightblue, hotpink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, purple, lightblue, hotpink); /* For Firefox 3.6 to 15 */ 
+}
+
+.gradient3 {
+    background: radial-gradient(purple, lightblue, hotpink); /* Standart syntax*/
+    background: -webkit-radial-gradient(purple, lightblue, hotpink); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(purple, lightblue, hotpink); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(purple, lightblue, hotpink); /* For Firefox 3.6 to 15 */
+}
+
+.gradient4 {
+    background: radial-gradient(circle, purple, lightblue, hotpink); /* Standard syntax */
+    background: -webkit-radial-gradient(circle, purple, lightblue, hotpink); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, purple, lightblue, hotpink); /* Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, purple, lightblue, hotpink); /* For Firefox 3.6 to 15 */
+}

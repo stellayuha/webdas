@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>dom 3</title>
+</head>
+<body>
+
+    <p class="paragraf">NCT (Hangul: 엔시티) adalah grup vokal pria asal Korea Selatan yang dibentuk oleh SM Entertainment. 
+        NCT merupakan singkatan dari Neo Culture Technology.</p>
+    
+    <p class="paragraf">Istilah ini diciptakan oleh pendiri SM Entertainment, Lee Soo-man, untuk mendeskripsikan konsep grup ini yang memiliki jumlah anggota tak terhingga yang terbagi ke dalam beberapa sub-unit berbasis di berbagai kota di dunia.
+        Grup ini terdiri dari 23 anggota per September 2020.</p>
+
+    <p class="paragraf">Unit pertama dari grup ini, NCT U, memulai debut pada April 2016.
+        Unit kedua, NCT 127, yang berbasis di Seoul memulai debut pada Juli 2016.
+        Unit ketiga, NCT Dream memulai debut pada Agustus 2016.
+        Unit keempat, WayV berbasis di Tiongkok, debut pada 17 Januari 2019</p>
+
+    <script>
+        var paragraf = document.getElementsByClassName('Paragraf');
+        setInterval(function () {
+            paragraf[0].style.color = 'red'
+            paragraf[1].style.color = 'pink'
+            paragraf[2].style.color = 'yellow'
+
+            setTimeout(function () {
+                paragraf[0].style.color = 'black'
+                paragraf[1].style.color = 'black'
+                paragraf[2].style.color = 'black'
+            }, 500)
+        }, 1000);
+    </script>
+</body>
+</html>

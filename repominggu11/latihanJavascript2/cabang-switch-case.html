@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+    <script>
+
+        var jawab = prompt('Kamu beruntung! Silahkan pilih angka 1 sampai 5 untuk mengetahui hadiah Anda!');
+        var hadiah ='';
+
+        switch(jawab){
+            case '1':
+                hadiah = 'Kopi';
+                break;
+            case '2':
+                hadiah = 'Susu';
+                break;
+            case '3':
+                hadiah = 'Shampoo';
+                break;
+            case '4':
+                hadiah = 'Sabun Mandi';
+                break;
+            case '5':
+                hadiah = 'Uang Rp 100.000';
+                break;
+            default:
+                document.write('<p>Opps! Anda salah pilih</p>');
+        
+        }
+
+        if (hadiah == " ") {
+            document.write('<p>Kamu gagal mendapat hadiah</p>');
+        } else {
+            document.write('<h2> Selamat kamu mendapatkan hadiah ' + hadiah + '</h2>')
+        }
+        </script>
+    </script>
+</body>
+</head>
+</html>
